@@ -54,7 +54,7 @@ exports.createPages = ({ graphql, actions }) => {
         })
       } else if (collection === "cheats") {
         createPage({
-          path: `/cheats${slug}`,
+          path: `/hints${slug}`,
           component: cheatSheet,
           context: {
             slug,

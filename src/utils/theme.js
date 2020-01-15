@@ -1,4 +1,6 @@
 export const lightTheme = {
+  primary: "#353699",
+  secondry: "#fff",
   mainHeadingColor: "#BF616A",
   mainHeadingBackgroundColor: "#ECEFF4",
   subHeadingColor: "#D08770",
