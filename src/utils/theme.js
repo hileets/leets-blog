@@ -26,7 +26,13 @@ export const lightTheme = {
 }
 
 export const darkTheme = {
-  backgroundColor: "#2E3440",
+  primary: "#2E3440",
+  primaryLowContrastOne: "#3B4252",
+  primaryLowContrastTwo: "#434C5E",
+  primaryLowContrastThree: "#4C566A",
+  secondary: "#D8DEE9",
+  secondaryLowContrastOne: "#E5E9F0",
+  secondaryLowContrastTwo: "#ECEFF4",
   textColor: "#D8DEE9",
   linkColor: "#A3BE8C",
   dividerColor: "#4C566A",

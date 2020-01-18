@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled, { ThemeProvider } from "styled-components"
+import media from "../utils/media"
 
 import { rhythm, scale } from "../utils/typography"
 import { lightTheme, darkTheme } from "../utils/theme"
@@ -64,7 +65,7 @@ const Layout = ({ location, title, children }) => {
     )
   }
   return (
-    <ThemeProvider theme={darkTheme}>
+    <ThemeProvider theme={{ ...darkTheme, media }}>
       <>
         <GlobalStyle />
         <Wrapper>

@@ -4,7 +4,6 @@ import styled, { ThemeProvider } from "styled-components"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { MDXProvider } from "@mdx-js/react"
 import CodeBlock from "../components/CodeBlock"
-
 // import CheatCard from "../components/CheatCard"
 // import Tag from "../components/Tag"
 // import { lightTheme, darkTheme } from "../Themes/theme"
@@ -12,17 +11,16 @@ import CodeBlock from "../components/CodeBlock"
 // import { Sun } from "styled-icons/boxicons-regular/Sun"
 // import { Moon } from "styled-icons/boxicons-regular/Moon"
 
+
 const LayoutContainerWrapper = styled.div`
   position: relative;
 `
-
 const LayoutContainer = styled.div`
   padding: 100px;
   margin-top: -30px;
   display: flex;
   flex-flow: column;
   /* background-color: ${({ theme }) => theme.layoutContainerColor}; */
-
 `
 const Heading = styled.div`
   display: flex;
@@ -92,7 +90,7 @@ const CheatSheetTemplate = ({ data }) => {
     <LayoutContainerWrapper>
       <Heading>
         <MainHeading>{details.title}</MainHeading>
-        <SubHeading>Cheat Sheet</SubHeading>
+        <SubHeading ding>Cheat Sheet</SubHeading>
       </Heading>
       <LayoutContainer className="layoutContainer">
         <MDXProvider components={components}>
